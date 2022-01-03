@@ -1,0 +1,30 @@
+.gpt3__links {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 250px;
+  margin: 1rem;
+}
+
+.gpt3__links h4 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.gpt3__links p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  margin: .5rem 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__links {
+    margin: 1rem 0;
+  }
+}
